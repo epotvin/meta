@@ -1,0 +1,7 @@
+{
+    "instanceOf": "core.Class",
+    "extends": "core.type.Type",
+    "abstract": true,
+    "attributes": {
+    }
+}

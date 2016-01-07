@@ -1,0 +1,4 @@
+{
+    "instanceOf": "core.Class",
+    "extends": ["meta.application.database.type.ColumnType", "core.type.Number"]
+}

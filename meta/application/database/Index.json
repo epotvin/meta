@@ -1,0 +1,15 @@
+{
+    "instanceOf": "core.Class",
+    "attributes": {
+        "table": {
+            "type": "meta.application.database.Table",
+            "mandatory": true,
+            "referencedBy": "indexes"
+        },
+        "columns": {
+            "type": "meta.application.database.Column",
+            "mandatory": true,
+            "multiple": true
+        }
+    }
+}

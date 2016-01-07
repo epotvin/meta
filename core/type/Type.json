@@ -1,0 +1,5 @@
+{
+    "instanceOf": "core.Class",
+    "extends": ["core.Class"],
+    "abstract": true
+}

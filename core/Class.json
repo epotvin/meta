@@ -1,0 +1,19 @@
+{
+    "instanceOf": "core.Class",
+    "extends": ["core.RootElement"],
+    "attributes": {
+        "abstract": {
+            "type": "core.type.Boolean"
+        },
+        "extends": {
+            "type": "core.Class",
+            "multiple": true
+        },
+        "attributes": {
+            "type": "core.Attribute",
+            "composition": true,
+            "multiple": "true"
+            "referencedBy": "class"
+        }
+    }
+}

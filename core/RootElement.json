@@ -1,0 +1,10 @@
+{
+    "instanceOf": "core.Class",
+    "extends": ["core.Element"],
+    "attributes": {
+        "package": {
+            "type": "core.Package",
+            "referencedBy": "elements"
+        }
+    }
+}

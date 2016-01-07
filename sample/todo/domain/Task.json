@@ -1,0 +1,9 @@
+{
+    "instanceOf": "domain.entity.Entity",
+    "attributes": {
+        "name" : {
+            "type": "meta.application.domain.entity.type.String",
+            "mandatory": true
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "instanceOf": "core.Class",
+    "extends": ["core.Element"],
+    "attributes": {
+        "attributes": {
+            "type": "meta.domain.entity.Attribute",
+            "composition": true,
+            "multiple": true,
+            "referencedBy": "entity"
+        }
+    }
+}

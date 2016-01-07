@@ -1,0 +1,4 @@
+{
+    "instanceOf": "core.Class",
+    "extends": ["core.type.Type"]
+}

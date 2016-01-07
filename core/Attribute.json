@@ -1,0 +1,22 @@
+{
+    "instanceOf": "core.Class",
+    "extends": ["core.Element"],
+    "attributes": {
+        "type": {
+            "type": "core.Class",
+            "mandatory": true
+        },
+        "mandatory": {
+            "type": "core.type.Boolean"
+        },
+        "composition": {
+            "type": "core.type.Boolean"
+        },
+        "multiple": {
+            "type": "core.type.Boolean"
+        },
+        "referencedBy": {
+            "type": "core.type.String"
+        }
+    }
+}

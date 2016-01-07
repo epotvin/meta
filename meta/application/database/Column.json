@@ -1,0 +1,16 @@
+{
+    "instanceOf": "core.Class",
+    "extends": ["core.Element"],
+    "attributes": {
+        "type": {
+            "type": "meta.application.database.type.ColumnType",
+            "mandatory": true
+        },
+        "length": {
+            "type": "core.type.Number"
+        },
+        "nullable": {
+            "type": "core.type.Boolean"
+        }
+    }
+}

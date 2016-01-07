@@ -1,0 +1,9 @@
+{
+    "instanceOf": "core.Class",
+    "attributes": {
+        "name": {
+            "type": "core.type.String",
+            "mandatory": true
+        }
+    }
+}
