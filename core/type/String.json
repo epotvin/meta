@@ -1,4 +1,7 @@
 {
+    "name": "String",
     "instanceOf": "core.Class",
-    "extends": ["core.type.Type"]
+    "extends": [
+        "core.type.Type"
+    ]
 }

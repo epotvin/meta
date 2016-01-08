@@ -1,22 +1,29 @@
 {
+    "name": "Attribute",
     "instanceOf": "core.Class",
-    "extends": ["core.Element"],
-    "attributes": {
-        "type": {
-            "type": "core.Class",
-            "mandatory": true
-        },
-        "mandatory": {
-            "type": "core.type.Boolean"
-        },
-        "composition": {
-            "type": "core.type.Boolean"
-        },
-        "multiple": {
-            "type": "core.type.Boolean"
-        },
-        "referencedBy": {
-            "type": "core.type.String"
-        }
-    }
+    "extends": [
+        "core.Element"
+    ],
+    "attributes": [{
+        "name": "type",
+        "instanceOf": "core.Attribute",
+        "type": "core.Class",
+        "mandatory": true
+    }, {
+        "name": "mandatory",
+        "instanceOf": "core.Attribute",
+        "type": "core.type.Boolean"
+    }, {
+        "name": "composition",
+        "instanceOf": "core.Attribute",
+        "type": "core.type.Boolean"
+    }, {
+        "name": "multiple",
+        "instanceOf": "core.Attribute",
+        "type": "core.type.Boolean"
+    }, {
+        "name": "referencedBy",
+        "instanceOf": "core.Attribute",
+        "type": "core.type.String"
+    }]
 }

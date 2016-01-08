@@ -1,15 +1,17 @@
 {
+    "name": "Index",
     "instanceOf": "core.Class",
-    "attributes": {
-        "table": {
-            "type": "meta.application.database.Table",
-            "mandatory": true,
-            "referencedBy": "indexes"
-        },
-        "columns": {
-            "type": "meta.application.database.Column",
-            "mandatory": true,
-            "multiple": true
-        }
-    }
+    "attributes": [{
+        "name": "table",
+        "instanceOf": "core.Attribute",
+        "type": "meta.application.database.Table",
+        "mandatory": true,
+        "referencedBy": "indexes"
+    }, {
+        "name": "columns",
+        "instanceOf": "core.Attribute",
+        "type": "meta.application.database.Column",
+        "mandatory": true,
+        "multiple": true
+    }]
 }

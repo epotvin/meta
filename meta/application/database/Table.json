@@ -1,18 +1,22 @@
 {
+    "name": "Table",
     "instanceOf": "core.Class",
-    "extends": ["core.RootElement"],
-    "attributes" : {
-        "columns": {
-            "type": "meta.application.database.Column",
-            "composition": true,
-            "multiple": true,
-            "referencedBy": "table"
-        },
-        "indexes": {
-            "type": "meta.application.database.Index",
-            "composition": true,
-            "multiple": true,
-            "referencedBy": "table"
-        }
-    }
+    "extends": [
+        "core.RootElement"
+    ],
+    "attributes": [{
+        "name": "columns",
+        "instanceOf": "core.Attribute",
+        "type": "meta.application.database.Column",
+        "composition": true,
+        "multiple": true,
+        "referencedBy": "table"
+    }, {
+        "name": "indexes",
+        "instanceOf": "core.Attribute",
+        "type": "meta.application.database.Index",
+        "composition": true,
+        "multiple": true,
+        "referencedBy": "table"
+    }]
 }

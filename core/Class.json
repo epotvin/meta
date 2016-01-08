@@ -1,19 +1,24 @@
 {
+    "name": "Class",
     "instanceOf": "core.Class",
-    "extends": ["core.RootElement"],
-    "attributes": {
-        "abstract": {
-            "type": "core.type.Boolean"
-        },
-        "extends": {
-            "type": "core.Class",
-            "multiple": true
-        },
-        "attributes": {
-            "type": "core.Attribute",
-            "composition": true,
-            "multiple": "true"
-            "referencedBy": "class"
-        }
-    }
+    "extends": [
+        "core.RootElement"
+    ],
+    "attributes": [{
+        "name": "abstract",
+        "instanceOf": "core.Attribute",
+        "type": "core.type.Boolean"
+    }, {
+        "name": "extends",
+        "instanceOf": "core.Attribute",
+        "type": "core.Class",
+        "multiple": true
+    }, {
+        "name": "attributes",
+        "instanceOf": "core.Attribute",
+        "type": "core.Attribute",
+        "composition": true,
+        "multiple": "true",
+        "referencedBy": "class"
+    }]
 }

@@ -1,11 +1,14 @@
 {
+    "name": "Package",
     "instanceOf": "core.Class",
-    "extends": [{"core.RootElement"}],
-    "attributes": {
-        "elements": {
-            "type": "core.RootElement",
-            "multiple": true,
-            "referencedBy": "package"
-        }
-    }
+    "extends": [
+        "core.RootElement"
+    ],
+    "attributes": [{
+        "name": "elements",
+        "instanceOf": "core.Attribute",
+        "type": "core.RootElement",
+        "multiple": true,
+        "referencedBy": "package"
+    }]
 }

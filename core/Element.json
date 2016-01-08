@@ -1,9 +1,10 @@
 {
+    "name": "Element",
     "instanceOf": "core.Class",
-    "attributes": {
-        "name": {
-            "type": "core.type.String",
-            "mandatory": true
-        }
-    }
+    "attributes": [{
+        "name": "name",
+        "instanceOf": "core.Attribute",
+        "type": "core.type.String",
+        "mandatory": true
+    }]
 }

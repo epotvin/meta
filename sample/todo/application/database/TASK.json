@@ -1,16 +1,17 @@
 {
+    "name": "TASK",
     "instanceOf": "meta.application.database.Table",
-    "columns": {
-        "ID": {
-            "type": "meta.application.database.type.NUMBER"
-        },
-        "NAME": {
-            "type": "meta.application.database.type.VARCHAR"
-        }
-    },
-    "indexes": {
-        "TASK_PK": {
-            "columns": ["sample.todo.application.database.TASK.ID"]
-        }
-    }
+    "columns": [{
+        "name": "ID",
+        "type": "meta.application.database.type.NUMBER"
+    }, {
+        "name": "NAME",
+        "type": "meta.application.database.type.VARCHAR"
+    }],
+    "indexes": [{
+        "name": "TASK_PK",
+        "columns": [
+            "sample.todo.application.database.TASK.ID"
+        ]
+    }]
 }

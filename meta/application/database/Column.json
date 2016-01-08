@@ -1,16 +1,21 @@
 {
+    "name": "Column",
     "instanceOf": "core.Class",
-    "extends": ["core.Element"],
-    "attributes": {
-        "type": {
-            "type": "meta.application.database.type.ColumnType",
-            "mandatory": true
-        },
-        "length": {
-            "type": "core.type.Number"
-        },
-        "nullable": {
-            "type": "core.type.Boolean"
-        }
-    }
+    "extends": [
+        "core.Element"
+    ],
+    "attributes": [{
+        "name": "type",
+        "instanceOf": "core.Attribute",
+        "type": "meta.application.database.type.ColumnType",
+        "mandatory": true
+    }, {
+        "name": "length",
+        "instanceOf": "core.Attribute",
+        "type": "core.type.Number"
+    }, {
+        "name": "nullable",
+        "instanceOf": "core.Attribute",
+        "type": "core.type.Boolean"
+    }]
 }
