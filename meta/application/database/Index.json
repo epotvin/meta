@@ -1,6 +1,7 @@
 {
     "name": "Index",
     "instanceOf": "core.Class",
+    "extends": ["core.Element"],
     "attributes": [{
         "name": "table",
         "instanceOf": "core.Attribute",

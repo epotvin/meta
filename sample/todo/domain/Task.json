@@ -1,8 +1,9 @@
 {
     "name": "Task",
-    "instanceOf": "domain.entity.Entity",
+    "instanceOf": "meta.domain.entity.Entity",
     "attributes": [{
         "name": "name",
+        "instanceOf": "meta.domain.entity.Attribute",
         "type": "meta.application.domain.entity.type.String",
         "mandatory": true
     }]

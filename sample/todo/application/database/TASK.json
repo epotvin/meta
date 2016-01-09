@@ -3,13 +3,16 @@
     "instanceOf": "meta.application.database.Table",
     "columns": [{
         "name": "ID",
+        "instanceOf": "meta.application.database.Column",
         "type": "meta.application.database.type.NUMBER"
     }, {
         "name": "NAME",
+        "instanceOf": "meta.application.database.Column",
         "type": "meta.application.database.type.VARCHAR"
     }],
     "indexes": [{
         "name": "TASK_PK",
+        "instanceOf": "meta.application.database.Index",
         "columns": [
             "sample.todo.application.database.TASK.ID"
         ]

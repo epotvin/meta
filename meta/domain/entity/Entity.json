@@ -6,6 +6,7 @@
     ],
     "attributes": [{
         "name": "attributes",
+        "instanceOf": "core.Attribute",
         "type": "meta.domain.entity.Attribute",
         "composition": true,
         "multiple": true,
