@@ -1,8 +1,0 @@
-{
-    "name": "ColumnType",
-    "instanceOf": "core.Class",
-    "extends": [
-        "core.type.Type"
-    ],
-    "abstract": true
-}

@@ -7,7 +7,7 @@
     "attributes": [{
         "name": "type",
         "instanceOf": "core.Attribute",
-        "type": "core.Class",
+        "type": "core.Element",
         "mandatory": true
     }, {
         "name": "mandatory",

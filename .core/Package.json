@@ -9,6 +9,7 @@
         "instanceOf": "core.Attribute",
         "type": "core.RootElement",
         "multiple": true,
+        "composition": true,
         "referencedBy": "package"
     }]
 }

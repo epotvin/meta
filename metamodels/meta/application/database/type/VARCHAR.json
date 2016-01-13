@@ -1,0 +1,7 @@
+{
+    "name": "VARCHAR",
+    "instanceOf": "meta.application.database.ColumnType",
+    "extends": [
+        "core.type.String"
+    ]
+}

@@ -4,7 +4,7 @@
     "attributes": [{
         "name": "name",
         "instanceOf": "meta.domain.entity.Attribute",
-        "type": "meta.application.domain.entity.type.String",
+        "type": "meta.domain.entity.type.String",
         "mandatory": true
     }]
 }

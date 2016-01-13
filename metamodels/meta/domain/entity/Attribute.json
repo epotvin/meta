@@ -24,6 +24,6 @@
     }, {
         "name": "referencedBy",
         "instanceOf": "core.Attribute",
-        "type": "core.type.String"
+        "type": "meta.domain.entity.Attribute"
     }]
 }

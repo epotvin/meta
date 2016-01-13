@@ -7,7 +7,7 @@
     "attributes": [{
         "name": "type",
         "instanceOf": "core.Attribute",
-        "type": "meta.application.database.type.ColumnType",
+        "type": "meta.application.database.ColumnType",
         "mandatory": true
     }, {
         "name": "length",

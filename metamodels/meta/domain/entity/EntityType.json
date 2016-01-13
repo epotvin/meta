@@ -1,5 +1,5 @@
 {
-    "name": "Boolean",
+    "name": "EntityType",
     "instanceOf": "core.Class",
     "extends": [
         "core.type.Type"

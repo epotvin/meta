@@ -1,0 +1,4 @@
+{
+    "name": "String",
+    "instanceOf": "core.type.Type"
+}
