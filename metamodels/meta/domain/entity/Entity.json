@@ -10,6 +10,6 @@
         "type": "meta.domain.entity.Attribute",
         "composition": true,
         "multiple": true,
-        "referencedBy": "entity"
+        "referencedBy": "meta.domain.entity.Attribute.entity"
     }]
 }

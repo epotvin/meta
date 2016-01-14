@@ -10,13 +10,13 @@
         "type": "meta.application.database.Column",
         "composition": true,
         "multiple": true,
-        "referencedBy": "table"
+        "referencedBy": "meta.application.database.Column.table"
     }, {
         "name": "indexes",
         "instanceOf": "core.Attribute",
         "type": "meta.application.database.Index",
         "composition": true,
         "multiple": true,
-        "referencedBy": "table"
+        "referencedBy": "meta.application.database.Index.table"
     }]
 }

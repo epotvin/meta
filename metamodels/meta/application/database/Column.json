@@ -17,5 +17,11 @@
         "name": "nullable",
         "instanceOf": "core.Attribute",
         "type": "core.type.Boolean"
+    }, {
+        "name": "table",
+        "instanceOf": "core.Attribute",
+        "type": "meta.application.database.Table",
+        "mandatory": true,
+        "referencedBy": "meta.application.database.Table.columns"
     }]
 }

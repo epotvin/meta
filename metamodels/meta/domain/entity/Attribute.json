@@ -25,5 +25,11 @@
         "name": "referencedBy",
         "instanceOf": "core.Attribute",
         "type": "meta.domain.entity.Attribute"
+    }, {
+        "name": "entity",
+        "instanceOf": "core.Attribute",
+        "type": "meta.domain.entity.Entity",
+        "mandatory": true,
+        "referencedBy": "meta.domain.entity.Entity.attributes"
     }]
 }

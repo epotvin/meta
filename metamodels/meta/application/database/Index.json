@@ -7,7 +7,7 @@
         "instanceOf": "core.Attribute",
         "type": "meta.application.database.Table",
         "mandatory": true,
-        "referencedBy": "indexes"
+        "referencedBy": "meta.application.database.Table.indexes"
     }, {
         "name": "columns",
         "instanceOf": "core.Attribute",
