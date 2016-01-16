@@ -2,7 +2,7 @@
     "name": "Entity",
     "instanceOf": "core.Class",
     "extends": [
-        "core.Element"
+        "core.RootElement"
     ],
     "attributes": [{
         "name": "attributes",

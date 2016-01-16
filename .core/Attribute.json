@@ -22,6 +22,10 @@
         "instanceOf": "core.Attribute",
         "type": "core.type.Boolean"
     }, {
+        "name": "readOnly",
+        "instanceOf": "core.Attribute",
+        "type": "core.type.Boolean"
+    }, {
         "name": "referencedBy",
         "instanceOf": "core.Attribute",
         "type": "core.type.String"
