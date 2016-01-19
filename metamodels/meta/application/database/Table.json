@@ -5,6 +5,10 @@
         "core.RootElement"
     ],
     "attributes": [{
+        "name": "description",
+        "instanceOf": "core.Attribute",
+        "type": "core.type.String"
+    }, {
         "name": "columns",
         "instanceOf": "core.Attribute",
         "type": "meta.application.database.Column",
