@@ -1,5 +1,4 @@
 {
-    "name": "String",
     "instanceOf": "meta.domain.entity.EntityType",
     "extends": [
         "core.type.String"

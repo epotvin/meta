@@ -1,5 +1,4 @@
 {
-    "name": "Attribute",
     "instanceOf": "core.Class",
     "extends": [
         "core.Element"

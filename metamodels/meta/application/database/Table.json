@@ -1,5 +1,4 @@
 {
-    "name": "Table",
     "instanceOf": "core.Class",
     "extends": [
         "core.RootElement"

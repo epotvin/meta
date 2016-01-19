@@ -1,5 +1,4 @@
 {
-    "name": "Entity",
     "instanceOf": "core.Class",
     "extends": [
         "core.RootElement"

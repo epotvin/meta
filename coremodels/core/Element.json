@@ -1,5 +1,4 @@
 {
-    "name": "Element",
     "instanceOf": "core.Class",
     "attributes": [{
         "name": "name",

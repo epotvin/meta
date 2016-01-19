@@ -1,5 +1,4 @@
 {
-    "name": "Task",
     "instanceOf": "meta.domain.entity.Entity",
     "attributes": [{
         "name": "name",
