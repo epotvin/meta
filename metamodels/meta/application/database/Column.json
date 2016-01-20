@@ -1,26 +1,43 @@
 {
     "instanceOf": "core.Class",
-    "extends": [
-        "core.Element"
-    ],
+    "abstract": "false",
+    "extends": ["core.Element"],
     "attributes": [{
         "name": "type",
         "instanceOf": "core.Attribute",
         "type": "meta.application.database.ColumnType",
-        "mandatory": true
+        "mandatory": true,
+        "composition": false,
+        "multiple": false,
+        "readOnly": false,
+        "referencedBy": "meta.domain.entity.type.String"
     }, {
         "name": "length",
         "instanceOf": "core.Attribute",
-        "type": "core.type.Number"
+        "type": "core.type.Number",
+        "mandatory": false,
+        "composition": false,
+        "multiple": false,
+        "readOnly": false,
+        "referencedBy": "meta.domain.entity.type.String"
     }, {
         "name": "nullable",
         "instanceOf": "core.Attribute",
-        "type": "core.type.Boolean"
+        "type": "core.type.Boolean",
+        "mandatory": false,
+        "composition": false,
+        "multiple": false,
+        "readOnly": false,
+        "referencedBy": "meta.domain.entity.type.String"
     }, {
         "name": "table",
         "instanceOf": "core.Attribute",
         "type": "meta.application.database.Table",
         "mandatory": true,
+        "composition": false,
+        "multiple": false,
+        "readOnly": false,
         "referencedBy": "meta.application.database.Table.columns"
-    }]
+    }],
+    "icon": "/metamodels/meta/application/database/Column-icon.png"
 }

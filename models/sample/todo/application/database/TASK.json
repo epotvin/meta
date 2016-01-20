@@ -1,15 +1,17 @@
 {
     "instanceOf": "meta.application.database.Table",
-    "description": "Une table qui gère les tâches",
+    "description": "Une table qui gère les tâches ...",
     "columns": [{
         "name": "ID",
         "instanceOf": "meta.application.database.Column",
         "type": "meta.application.database.type.NUMBER",
-        "nullable": false
+        "length": 3,
+        "nullable": true
     }, {
         "name": "NAME",
         "instanceOf": "meta.application.database.Column",
         "type": "meta.application.database.type.VARCHAR",
+        "length": 123,
         "nullable": false
     }],
     "indexes": [{
