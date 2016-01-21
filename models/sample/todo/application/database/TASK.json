@@ -11,8 +11,7 @@
         "name": "NAME",
         "instanceOf": "meta.application.database.Column",
         "type": "meta.application.database.type.VARCHAR",
-        "length": 123,
-        "nullable": false
+        "length": 123
     }],
     "indexes": [{
         "name": "TASK_PK",
