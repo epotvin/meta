@@ -1,8 +1,6 @@
 {
     "instanceOf": "core.Class",
-    "extends": [
-        "core.RootElement"
-    ],
+    "extends": ["core.RootElement"],
     "attributes": [{
         "name": "description",
         "instanceOf": "core.Attribute",
