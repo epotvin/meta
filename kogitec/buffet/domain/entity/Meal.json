@@ -1,0 +1,25 @@
+{
+    "instanceOf": "meta.domain.entity.Entity",
+    "attributes": [{
+        "name": "name",
+        "instanceOf": "meta.domain.entity.Attribute",
+        "type": "meta.domain.entity.type.String",
+        "mandatory": true
+    }, {
+        "name": "formats",
+        "instanceOf": "meta.domain.entity.Attribute",
+        "type": "buffet.domain.entity.Format",
+        "multiple": true,
+        "composition": true,
+        "mandatory": true,
+        "referencedBy": "buffet.domain.entity.Format.meal"
+    }, {
+        "name": "varieties",
+        "instanceOf": "meta.domain.entity.Attribute",
+        "type": "buffet.domain.entity.Variety",
+        "multiple": true,
+        "composition": true,
+        "mandatory": true,
+        "referencedBy": "buffet.domain.entity.Variety.meal"
+    }]
+}

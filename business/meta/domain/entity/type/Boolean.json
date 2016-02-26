@@ -1,0 +1,6 @@
+{
+    "instanceOf": "meta.domain.entity.EntityType",
+    "extends": [
+        "core.type.Boolean"
+    ]
+}

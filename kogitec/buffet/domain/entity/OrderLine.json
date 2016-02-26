@@ -1,0 +1,31 @@
+{
+    "instanceOf": "meta.domain.entity.Entity",
+    "attributes": [{
+        "name": "line",
+        "instanceOf": "meta.domain.entity.Attribute",
+        "type": "meta.domain.entity.type.Number",
+        "mandatory": true
+    }, {
+        "name": "details",
+        "instanceOf": "meta.domain.entity.Attribute",
+        "type": "meta.domain.entity.type.String",
+        "mandatory": true
+    }, {
+        "name": "price",
+        "instanceOf": "meta.domain.entity.Attribute",
+        "type": "meta.domain.entity.type.Number",
+        "mandatory": true
+    }, {
+        "name": "order",
+        "instanceOf": "meta.domain.entity.Attribute",
+        "type": "buffet.domain.entity.Order",
+        "referencedBy": "buffet.domain.entity.Order.lines"
+    }, {
+        "name": "lineVarieties",
+        "instanceOf": "meta.domain.entity.Attribute",
+        "type": "buffet.domain.entity.OrderLineVariety",
+        "multiple": true,
+        "composition": true,
+        "referencedBy": "buffet.domain.entity.OrderLineVariety.orderLine"
+    }]
+}

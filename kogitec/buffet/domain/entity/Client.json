@@ -1,0 +1,25 @@
+{
+    "instanceOf": "meta.domain.entity.Entity",
+    "attributes": [{
+        "name": "number",
+        "instanceOf": "meta.domain.entity.Attribute",
+        "type": "meta.domain.entity.type.Number",
+        "mandatory": true
+    }, {
+        "name": "firstName",
+        "instanceOf": "meta.domain.entity.Attribute",
+        "type": "meta.domain.entity.type.String"
+    }, {
+        "name": "lastName",
+        "instanceOf": "meta.domain.entity.Attribute",
+        "type": "meta.domain.entity.type.String"
+    }, {
+        "name": "telephone",
+        "instanceOf": "meta.domain.entity.Attribute",
+        "type": "meta.domain.entity.type.String"
+    }, {
+        "name": "user",
+        "instanceOf": "meta.domain.entity.Attribute",
+        "type": "platform.domain.entity.User"
+    }]
+}

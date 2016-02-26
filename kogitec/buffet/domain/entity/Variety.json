@@ -1,0 +1,18 @@
+{
+    "instanceOf": "meta.domain.entity.Entity",
+    "attributes": [{
+        "name": "name",
+        "instanceOf": "meta.domain.entity.Attribute",
+        "type": "meta.domain.entity.type.String",
+        "mandatory": true
+    }, {
+        "name": "description",
+        "instanceOf": "meta.domain.entity.Attribute",
+        "type": "meta.domain.entity.type.String"
+    }, {
+        "name": "meal",
+        "instanceOf": "meta.domain.entity.Attribute",
+        "type": "buffet.domain.entity.Meal",
+        "referencedBy": "buffet.domain.entity.Meal.varieties"
+    }]
+}

@@ -1,0 +1,7 @@
+{
+    "instanceOf": "meta.domain.entity.Enumeration",
+    "values": [{
+        "name": "OPENED",
+        "instanceOf": "meta.domain.entity.EnumerationValue"
+    }]
+}

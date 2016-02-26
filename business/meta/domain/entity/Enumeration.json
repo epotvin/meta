@@ -1,0 +1,13 @@
+{
+    "instanceOf": "core.Class",
+    "extends": [
+        "core.RootElement"
+    ],
+    "attributes": [{
+        "name": "values",
+        "instanceOf": "core.Attribute",
+        "type": "meta.domain.entity.EnumerationValue",
+        "multiple": true,
+        "composition": true
+    }]
+}

@@ -1,0 +1,8 @@
+{
+    "name": "kogitec",
+    "instanceOf": "core.Model",
+    "version": "0.0.1",
+    "dependencies": {
+        "business": "0.0.1"
+    }
+}

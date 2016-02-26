@@ -1,0 +1,34 @@
+{
+    "instanceOf": "meta.domain.entity.Entity",
+    "attributes": [{
+        "name": "number",
+        "instanceOf": "meta.domain.entity.Attribute",
+        "type": "meta.domain.entity.type.Number",
+        "mandatory": true
+    }, {
+        "name": "openedDate",
+        "instanceOf": "meta.domain.entity.Attribute",
+        "type": "meta.domain.entity.type.Date",
+        "mandatory": true
+    }, {
+        "name": "deliveryDate",
+        "instanceOf": "meta.domain.entity.Attribute",
+        "type": "meta.domain.entity.type.Date"
+    }, {
+        "name": "client",
+        "instanceOf": "meta.domain.entity.Attribute",
+        "type": "buffet.domain.entity.Client",
+        "mandatory": true
+    }, {
+        "name": "status",
+        "instanceOf": "meta.domain.entity.Attribute",
+        "type": "buffet.domain.entity.Status"
+    }, {
+        "name": "lines",
+        "instanceOf": "meta.domain.entity.Attribute",
+        "type": "buffet.domain.entity.OrderLine",
+        "multiple": true,
+        "composition": true,
+        "referencedBy": "buffet.domain.entity.OrderLine.order"
+    }]
+}

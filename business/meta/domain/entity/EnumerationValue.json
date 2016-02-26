@@ -1,0 +1,6 @@
+{
+    "instanceOf": "core.Class",
+    "extends": [
+        "core.Element"
+    ]
+}

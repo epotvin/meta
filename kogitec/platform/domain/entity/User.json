@@ -1,0 +1,17 @@
+{
+    "instanceOf": "meta.domain.entity.Entity",
+    "attributes": [{
+        "name": "email",
+        "instanceOf": "meta.domain.entity.Attribute",
+        "type": "meta.domain.entity.type.String",
+        "mandatory": true
+    }, {
+        "name": "password",
+        "instanceOf" : "meta.domain.entity.Attribute",
+        "type": "meta.domain.entity.type.String"
+    }, {
+        "name": "admin",
+        "instanceOf": "meta.domain.entity.Attribute",
+        "type": "meta.domain.entity.type.Boolean"
+    }]
+}

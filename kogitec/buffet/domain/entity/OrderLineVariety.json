@@ -1,0 +1,14 @@
+{
+    "instanceOf": "meta.domain.entity.Entity",
+    "attributes": [{
+        "name": "orderLine",
+        "instanceOf": "meta.domain.entity.Attribute",
+        "type": "buffet.domain.entity.OrderLine",
+        "referencedBy": "buffet.domain.entity.OrderLine.lineVarieties"
+    }, {
+        "name": "variety",
+        "instanceOf": "meta.domain.entity.Attribute",
+        "type": "buffet.domain.entity.Variety",
+        "mandatory": true
+    }]
+}

@@ -1,6 +1,6 @@
 {
     "instanceOf": "meta.application.database.Table",
-    "description": "Une table qui gère les tâches ...",
+    "description": "tache",
     "columns": [{
         "name": "ID",
         "instanceOf": "meta.application.database.Column",
